@@ -65,7 +65,7 @@
   app.textContent = '';
   document.title = String(p.name || 'Workout plan').slice(0, 60) + ' · MeFit plan';
   app.appendChild(el('h1', null, String(p.name || 'Workout plan').slice(0, 60)));
-  app.appendChild(el('p', 'sub', days.length + ' day' + (days.length === 1 ? '' : 's') + ' · ' + nEx + ' exercises · shared from MeFit'));
+  app.appendChild(el('p', 'sub', days.length + ' day' + (days.length === 1 ? '' : 's') + ' · ' + nEx + ' exercise' + (nEx === 1 ? '' : 's') + ' · shared from MeFit'));
   if (android){
     var open = el('a', 'btn primary', 'Open in MeFit'); open.href = intentUrl; app.appendChild(open);
     var get = el('a', 'btn ghost', 'Don’t have MeFit? Get it free'); get.href = PLAY; app.appendChild(get);
