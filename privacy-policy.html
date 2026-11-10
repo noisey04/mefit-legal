@@ -4,7 +4,7 @@
 <style>body{font:16px/1.6 system-ui,-apple-system,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1b1b21;background:#fbf8ff}h1{font-size:1.8em;line-height:1.2}h2{margin-top:1.6em;font-size:1.2em}code{background:#e8e7f0;padding:1px 4px;border-radius:4px}@media (prefers-color-scheme:dark){body{color:#e4e1e9;background:#121318}code{background:#2a2b31}}</style>
 </head><body>
 <h1>MeFit Privacy Policy</h1>
-<p><strong>Effective date:</strong> 3 November 2026
+<p><strong>Effective date:</strong> 10 November 2026
 <strong>Developer:</strong> Mayank Enterprises (Priyesh Mayank)
 <strong>Contact:</strong> mayankent0@gmail.com
 <strong>App:</strong> MeFit – Gym Workout Log (package <code>com.priyeshmayank.tallyset</code>)</p>
@@ -22,9 +22,11 @@
 <h2>Where your data is stored</h2>
 <ul>
 <li><strong>On your phone</strong>, in the app's private storage.</li>
+<li><strong>Progress photos</strong> (optional, 2.4+) are stored only on your phone. They are never uploaded, backed up, exported or shared by MeFit, and are removed if you uninstall the app, use <em>Erase all data</em>, or delete your account.</li>
 <li><strong>In your cloud backup</strong>, in Google Firebase (Firebase Authentication and Cloud Firestore), operated by Google as our service provider. Data is encrypted in transit (HTTPS/TLS) and at rest. Security rules let only your signed-in account read or write your backup; the developer does not use it for anything else.</li>
 </ul>
 <h2>When data leaves your phone</h2>
+<p><strong>Train together (optional, 2.5+).</strong> If you pair with a buddy using a one-time code, that buddy can see your first name and, while you train, your current workout: exercise names, sets, reps, weights (you can hide weights), personal bests, and whether you have finished. They can send you a fixed reaction (Fire or Flex). Up to 10 buddies. Nothing is shared unless you pair; you can hide any workout or unlink at any time, and deleting your account removes your live card and links. Your location, photos and body weight are never shared.</p>
 <ul>
 <li><strong>Cloud backup:</strong> automatically, while you are signed in, as described above.</li>
 <li><strong>Export / share:</strong> If you tap <em>Export backup (JSON)</em>, <em>Export sets (CSV)</em>, or <em>Copy</em> / <em>Share</em> on the weekly summary, the app hands a file or text to Android so you can choose where it goes. What happens next is governed by the app you choose.</li>
@@ -34,12 +36,14 @@
 <li>No sale of data, and no sharing with third parties for their own use</li>
 <li>No advertising or advertising ID</li>
 <li>No analytics, crash reporting or tracking SDKs</li>
-<li>No location, contacts, camera, microphone, photos or Health Connect access</li>
+<li>No location, contacts, microphone or Health Connect access</li>
+<li>No camera or photo-library access unless you choose <em>Add photo</em>; Android's own picker or camera app hands MeFit only the one photo you pick, and it stays on your phone</li>
 </ul>
 <h2>Permissions</h2>
 <ul>
 <li><strong>Internet / network state</strong> — for Google sign-in and the cloud backup.</li>
 <li><strong>Vibrate</strong> — to buzz when a rest timer ends (you can turn this off in Settings).</li>
+<li><strong>Notifications</strong> (optional, asked only when you turn on reminders) and <strong>run at startup</strong> — for training-day reminders, which are scheduled on your phone; nothing is sent anywhere.</li>
 </ul>
 <h2>Deleting your data and account</h2>
 <ul>
