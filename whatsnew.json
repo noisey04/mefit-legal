@@ -1,4 +1,11 @@
 {
   "_": "One line per MeFit version code, shown in the app's 'New version of MeFit' card (2.29.0+). Keep t under 140 characters.",
-  "46": {"v": "2.29.0", "t": "MeFit on your watch: log sets, rest and heart rate from the wrist."}
+  "46": {
+    "v": "2.29.0",
+    "t": "MeFit on your watch: log sets, rest and heart rate from the wrist."
+  },
+  "49": {
+    "v": "2.30.0",
+    "t": "A fresh, lighter look: a This week gauge on Home, tiles for steps and buddies, and one − / + style for kg, reps and rest."
+  }
 }
