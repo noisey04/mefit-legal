@@ -4,7 +4,7 @@
 <style>body{font:16px/1.6 system-ui,-apple-system,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1b1b21;background:#fbf8ff}h1{font-size:1.8em;line-height:1.2}h2{margin-top:1.6em;font-size:1.2em}code{background:#e8e7f0;padding:1px 4px;border-radius:4px}@media (prefers-color-scheme:dark){body{color:#e4e1e9;background:#121318}code{background:#2a2b31}}</style>
 </head><body>
 <h1>MeFit Privacy Policy</h1>
-<p><strong>Effective date:</strong> 19 November 2026
+<p><strong>Effective date:</strong> 21 November 2026
 <strong>Developer:</strong> Mayank Enterprises (Priyesh Mayank)
 <strong>Contact:</strong> mayankent0@gmail.com
 <strong>App:</strong> MeFit – Gym Workout Log (package <code>com.priyeshmayank.tallyset</code>)</p>
@@ -69,6 +69,12 @@
 <li>MeFit does not connect to your WHOOP account or any other company's servers; it only listens to the heart rate your monitor broadcasts.</li>
 <li>To stop: tap <em>Forget</em> in Profile → Heart rate monitor, or remove the Nearby devices permission in Android settings. Heart rate summaries are deleted with the workout or with <em>Erase all data</em>.</li>
 </ul>
+<h3 id="watch">MeFit on a Wear OS watch (optional, 2.29+)</h3>
+<ul>
+<li>If you install MeFit on a Wear OS watch, the watch and phone talk to each other directly through Wear OS on your own devices. The phone sends the watch what it needs to show (today's workout, the current set, the rest timer); the watch sends back the sets you log and taps such as Start, Skip and Finish. Nothing goes through our servers.</li>
+<li>While a workout is open on the watch, MeFit reads your heart rate from the watch's own sensor (Android's <em>Body sensors</em> / <em>Heart rate</em> permission, asked the first time) and sends it to the phone. It is handled exactly like heart rate from a Bluetooth monitor above: only the workout summary is saved, never second-by-second readings.</li>
+<li>To stop: turn off <em>Heart rate from the watch</em> in Profile → Watch, remove the permission in the watch's settings, or uninstall MeFit from the watch.</li>
+</ul>
 <ul>
 <li><strong>Cloud backup:</strong> automatically, while you are signed in, as described above.</li>
 <li><strong>Export / share:</strong> If you tap <em>Export backup (JSON)</em>, <em>Export sets (CSV)</em>, or <em>Copy</em> / <em>Share</em> on the weekly summary, the app hands a file or text to Android so you can choose where it goes. What happens next is governed by the app you choose.</li>
@@ -87,6 +93,7 @@
 <li><strong>Vibrate</strong> — to buzz when a rest timer ends (you can turn this off in Settings).</li>
 <li><strong>Read steps (Health Connect)</strong> (optional, asked only when you connect steps) — to show your daily steps.</li>
 <li><strong>Nearby devices (Bluetooth)</strong> (optional, asked when you search for a heart rate monitor) — to read live heart rate from a monitor you choose. Never used for location.</li>
+<li><strong>Body sensors / Heart rate</strong> (watch app only, optional, asked at your first workout on the watch) — to read heart rate from the watch's sensor during a workout.</li>
 <li><strong>Notifications</strong> (optional, asked only when you turn on reminders) and <strong>run at startup</strong> — for training-day reminders, which are scheduled on your phone; nothing is sent anywhere.</li>
 </ul>
 <h2>Deleting your data and account</h2>
