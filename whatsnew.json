@@ -11,5 +11,9 @@
   "50": {
     "v": "2.30.1",
     "t": "Fresh look everywhere: Plan, Routines and History in Workout, a volume chart in Progress, and a set table with a big clock while you train."
+  },
+  "51": {
+    "v": "2.30.2",
+    "t": "Rest now counts down right in your set table. Tap the ring for −15, +15 or skip."
   }
 }
