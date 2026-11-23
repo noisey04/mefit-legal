@@ -19,5 +19,9 @@
   "52": {
     "v": "2.30.3",
     "t": "A calmer look: a Today screen with a tip for your session, trend tiles, and a Timeline of your workouts, weigh-ins and steps."
+  },
+  "53": {
+    "v": "2.30.4",
+    "t": "A new, calmer start screen in light and dark, to match the Calm look."
   }
 }
