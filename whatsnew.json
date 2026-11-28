@@ -35,5 +35,9 @@
   "56": {
     "v": "2.31.0",
     "t": "See who trained each day: Progress › Buddies › Daily, with Cheer and Nudge."
+  },
+  "57": {
+    "v": "2.31.1",
+    "t": "Buddies' steps and workouts now stay up to date."
   }
 }
