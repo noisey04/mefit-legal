@@ -39,5 +39,9 @@
   "57": {
     "v": "2.31.1",
     "t": "Buddies' steps and workouts now stay up to date."
+  },
+  "58": {
+    "v": "2.32.0",
+    "t": "Buddies today on Home, a proper workout summary, Next time on each lift and one-tap weight logging."
   }
 }
