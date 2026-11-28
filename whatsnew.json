@@ -43,5 +43,9 @@
   "58": {
     "v": "2.32.0",
     "t": "Buddies today on Home, a proper workout summary, Next time on each lift and one-tap weight logging."
+  },
+  "59": {
+    "v": "2.32.1",
+    "t": "Tidier workout header and clearer numbers."
   }
 }
