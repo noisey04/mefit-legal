@@ -31,5 +31,9 @@
   "55": {
     "v": "2.30.6",
     "t": "Bar and dumbbell totals now sit in one tidy line under the weight and reps."
+  },
+  "56": {
+    "v": "2.31.0",
+    "t": "See who trained each day: Progress › Buddies › Daily, with Cheer and Nudge."
   }
 }
